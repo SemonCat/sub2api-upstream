@@ -1,0 +1,7 @@
+name: session-header
+version: "1.0.0"
+description: Add the Hermes session id header to every LLM provider request.
+author: Edison
+kind: standalone
+provides_middleware:
+  - llm_request
